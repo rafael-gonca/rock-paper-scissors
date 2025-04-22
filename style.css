@@ -1,0 +1,89 @@
+body {
+    font-family: 'Jersey 20';
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #0c131d;
+    height: 100vh;
+    margin: 0;
+    gap: 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+
+.buttons-container {
+    display: flex;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+button {
+    font-family: 'Jersey 20';
+    background-color: rgb(255, 228, 196);
+    cursor: pointer;
+    border-radius: 10px;
+    height: 60px;
+    width: 120px;
+    font-size: 40px;
+    border-style: groove;
+}
+
+.reset {
+    width: 180px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+    color: bisque;
+    font-size: 40px;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1d2e46 ;
+}
+
+.title-header {
+    color: bisque;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: bisque;
+}
+
+.footer-content {
+    color: bisque;
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    align-self: center;
+}
+
+.content {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
